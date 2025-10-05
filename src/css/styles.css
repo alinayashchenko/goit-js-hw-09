@@ -22,10 +22,6 @@ body {
   margin: 15px 0;
 }
 
-.back-link {
-  margin: 0;
-}
-
 .gallery {
   display: flex;
   flex-wrap: wrap;
