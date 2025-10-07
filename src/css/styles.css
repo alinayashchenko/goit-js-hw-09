@@ -22,6 +22,10 @@ body {
   margin: 15px 0;
 }
 
+.back-link {
+  margin-bottom: 20px;
+}
+
 .gallery {
   display: flex;
   flex-wrap: wrap;
@@ -42,4 +46,66 @@ body {
   width: 100%;
   height: 200px;
   object-fit: cover;
+}
+
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.email-label,
+.message-label {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.input-email,
+.textarea-message {
+  min-width: 360px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 16px;
+}
+
+.input-email {
+  max-height: 40px;
+}
+
+.textarea-message {
+  max-height: 80px;
+}
+
+.input-email:hover,
+.textarea-message:hover {
+  border: 1px solid #000;
+}
+
+.button-submit {
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  margin-top: 8px;
+  border: none;
+  background: #545ec8;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.button-submit:hover {
+  background-color: #6c8cff;
 }
